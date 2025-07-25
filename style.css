@@ -80,7 +80,7 @@
   color: rgb(233, 90, 8);
 }
 /* Our planes */
-.our-planes-heading {
+.heading {
   margin-top: 50px;
   text-align: center;
 }
@@ -140,6 +140,24 @@
 }
 
 /* Latest  Deals */
+.all-plants {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.all-plants img {
+  border-radius: 10px;
+}
+.vertical-delas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subscribs img {
+  width: 100%;
+  margin-top: 60px;
+}
 
 /* Join the colorful Bunch */
 
@@ -177,7 +195,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  .our-planes-heading {
+  .heading {
     margin-top: 50px;
     padding: 20px;
   }
