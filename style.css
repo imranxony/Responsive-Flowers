@@ -155,14 +155,9 @@
   gap: 20px;
 }
 
-.subscribs img {
-  width: 100%;
-  margin-top: 60px;
-}
-
 /* Join the colorful Bunch */
 
-.subscribs {
+.subscribe {
   background-image: url(./assets/news-letter-bg.png);
   background-size: cover;
   width: 100%;
@@ -173,10 +168,24 @@
   align-items: center;
   margin: 60px 0px;
 }
-.subscribs h3 {
-  display: block;
-}
 
+.subscribe h3 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.subscribe input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+}
+.sub-btn {
+  width: 100px;
+  height: 40px;
+  color: gray;
+}
 /* footer */
 .footer-container {
   display: flex;
@@ -236,6 +245,10 @@ footer ul li {
   }
   .left img {
     width: 100%;
+  }
+  /* subscribe */
+  .subscribe h3 {
+    font-size: 25px;
   }
 
   /* footer */
