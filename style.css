@@ -237,4 +237,20 @@ footer ul li {
   .left img {
     width: 100%;
   }
+
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .footer-container ul li {
+    padding: 5px 0px;
+  }
+  .col-1,
+  .col-2,
+  .col-3.col-4 {
+    margin: 5px 0px;
+  }
 }
