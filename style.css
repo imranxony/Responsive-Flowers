@@ -246,6 +246,11 @@ footer ul li {
   .left img {
     width: 100%;
   }
+
+  /* Lates Deals */
+  .all-plants {
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* subscribe */
   .subscribe h3 {
     font-size: 25px;
